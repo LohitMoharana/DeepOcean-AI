@@ -85,11 +85,11 @@ Annotated tracking output on real underwater test footage.
 
 | Sea Mine Detection (camouflaged, low-contrast target) | Diver Safety-Lock Trigger |
 |---|---|
-| ![Sea mine detection](docs/gifs/sea_mine_detection.gif) | ![Diver safety lock](docs/gifs/diver_safety_lock.gif) |
+| ![Sea mine detection](docs/gifs/test_video_1_R26_verified.gif) | ![Diver safety lock](docs/gifs/test_video_7_R26_verified.gif) |
 
 | UUV Tracking Through Occlusion | False-Positive Suppression (empty water) |
 |---|---|
-| ![UUV tracking](docs/gifs/uuv_tracking.gif) | ![Clean background](docs/gifs/background_suppression.gif) |
+| ![UUV tracking](docs/gifs/test_video_2_R26_verified.gif) | ![Clean background](docs/gifs/test_video_3_R26_verified.gif) |
 
 *GIFs generated from held-out test video, not training data. See `docs/gifs/` — add clips here as `.gif` (GitHub renders GIFs inline; keep each under ~10MB for reasonable load times, `ffmpeg -i clip.mp4 -vf "fps=10,scale=480:-1" out.gif` works well for compression).*
 
