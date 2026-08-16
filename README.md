@@ -85,7 +85,7 @@ Annotated tracking output on real underwater test footage.
 
 | Sea Mine Detection (camouflaged, low-contrast target) | Diver Safety-Lock Trigger |
 |---|---|
-| ![Sea mine detection](docs/gifs/test_video_1_R26_verified.gif) | ![Diver safety lock](docs/gifs/test_video_7_R26_verified.gif) |
+| ![Sea mine detection](docs/gifs/test_video_1_R26_verified.gif) | ![Diver safety lock](docs/gifs/test_video_8_R26_verified.gif) |
 
 | UUV Tracking Through Occlusion | False-Positive Suppression (empty water) |
 |---|---|
@@ -119,7 +119,7 @@ This project went through several iterations that are worth being transparent ab
 ## Usage
 
 ```bash
-python inference/track_video.py --source path/to/video.mp4 --weights weights/deepocean_yolov8s.pt
+python inference/validate_using_botsort.py --source path/to/video.mp4 --weights weights/deepocean_final.pt
 ```
 
 See `training/` for the dataset generation, active-learning patch, and fine-tuning scripts.
