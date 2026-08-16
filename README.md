@@ -82,24 +82,14 @@ This asymmetry is intentional: the system is tuned to over-flag potential divers
 
 Annotated tracking output on real underwater test footage.
 
-<p align="center">
-  <video src="docs/gifs/test_video_1_R26_verified.mp4" autoplay loop muted playsinline></video>
-  <video src="docs/gifs/test_video_8_R26_verified.mp4" autoplay loop muted playsinline></video>
-</p>
-<p align="center">
-  <b>Left:</b> Sea Mine Detection (camouflaged) &nbsp;&nbsp;|&nbsp;&nbsp; <b>Right:</b> Diver Safety-Lock Trigger
-</p>
 
-<br>
-
-<p align="center">
-  <video src="docs/gifs/test_video_2_R26_verified.mp4" autoplay loop muted playsinline></video>
-  <video src="docs/gifs/test_video_3_R26_verified.mp4" autoplay loop muted playsinline></video>
-</p>
-<p align="center">
-  <b>Left:</b> UUV Tracking Through Occlusion &nbsp;&nbsp;|&nbsp;&nbsp; <b>Right:</b> False-Positive Suppression
-</p>
-
+| Sea Mine Detection (camouflaged, low-contrast target) | Diver Safety-Lock Trigger |
+|---|---|
+| ![Sea mine detection](docs/gifs/test_video_1_R26_verified.gif) | ![Diver safety lock](docs/gifs/test_video_8_R26_verified.gif) |
+ 
+| UUV Tracking Through Occlusion | False-Positive Suppression (empty water) |
+|---|---|
+| ![UUV tracking](docs/gifs/test_video_2_R26_verified.gif) | ![Clean background](docs/gifs/test_video_3_R26_verified.gif) |
 
 ---
 
