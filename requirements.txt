@@ -10,10 +10,4 @@ albumentations>=1.3.1
 
 # Utilities
 tqdm>=4.65.0
-PyYAML>=6.0git init
-git lfs install
-git add -A
-git commit -m "Initial commit: DeepOcean R26 modular architecture"
-git branch -M main
-git remote add origin https://github.com/LohitMoharana/DeepOcean-AI.git
-git push -u origin main
+PyYAML>=6.0
