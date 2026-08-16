@@ -1,6 +1,11 @@
-# DeepOcean 🌊
+# DeepOcean-AI 🌊
 
-Underwater object detection and tracking pipeline — YOLOv8-based mine/UUV/diver classifier with a two-stage BoT-SORT tracking layer and a safety-interlock design for human divers.
+![Python 3.11](https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+![Ultralytics YOLOv8](https://img.shields.io/badge/YOLOv8-Ultralytics-blue?style=for-the-badge)
+
+>**Underwater object detection and tracking pipeline — YOLOv8-based mine/UUV/diver classifier with a two-stage BoT-SORT tracking layer and a safety-interlock design for human divers.**
 
 Built as an iterative, evidence-driven engineering project: every design decision below was arrived at by testing against real underwater footage, catching and fixing real failure modes (camouflage blindness, class confusion, dataset leakage), and re-validating rather than trusting a single training run.
 
