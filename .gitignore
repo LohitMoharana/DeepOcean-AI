@@ -1,0 +1,9 @@
+# IDEs
+.idea/
+.vscode/
+
+# Python Cache & Videos
+__pycache__/
+*.mp4
+*.avi
+*.mkv
