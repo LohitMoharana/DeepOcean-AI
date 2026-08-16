@@ -1,0 +1,10 @@
+path: ../dataset_R26_clean
+train: images/train
+val: images/val
+
+nc: 4
+names:
+  0: sea_mine
+  1: uuv
+  2: diver
+  3: misc

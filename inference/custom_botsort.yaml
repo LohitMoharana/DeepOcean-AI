@@ -1,0 +1,21 @@
+# custom_botsort.yaml (Updated for Ultralytics 8.4+)
+tracker_type: botsort
+track_high_thresh: 0.3
+track_low_thresh: 0.1
+new_track_thresh: 0.4
+track_buffer: 60        # Your custom 2-second memory
+match_thresh: 0.7
+aspect_ratio_thresh: 1.6
+min_box_area: 10
+mot20: False
+
+# BoT-SORT Specific
+gmc_method: sparseOptFlow
+proximity_thresh: 0.5
+appearance_thresh: 0.25
+with_reid: False        # Disable ReID weights (Safe Mode)
+model: auto             # <--- THE MISSING KEY FIX
+
+# The Fusion Keys
+fuse_score: True        # Fuses IoU and ReID scores
+linear_link: False      # Feature for linking tracklets
