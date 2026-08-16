@@ -84,11 +84,11 @@ Annotated tracking output on real underwater test footage.
 
 | Sea Mine Detection (camouflaged, low-contrast target) | Diver Safety-Lock Trigger |
 |---|---|
-| <img src="docs/gifs/test_video_1_R26_verified.gif" width="320" height="180"> | <img src="docs/gifs/test_video_8_R26_verified.gif" width="320" height="180"> |
+| <img src="docs/gifs/test_video_1_R26_verified.mp4"> | <img src="docs/gifs/test_video_8_R26_verified.mp4"> |
 
 | UUV Tracking Through Occlusion | False-Positive Suppression (empty water) |
 |---|---|
-| <img src="docs/gifs/test_video_2_R26_verified.gif" width="320" height="180"> | <img src="docs/gifs/test_video_3_R26_verified.gif" width="320" height="180"> |
+| <img src="docs/gifs/test_video_2_R26_verified.mp4"> | <img src="docs/gifs/test_video_3_R26_verified.mp4"> |
 
 
 ---
