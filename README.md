@@ -1,9 +1,9 @@
 # DeepOcean-AI 🌊
 
-![Python 3.11](https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-![Ultralytics YOLOv8](https://img.shields.io/badge/YOLOv8-Ultralytics-blue?style=for-the-badge)
+![Python 3.11](https://img.shields.io/badge/Python-3.11-3776AB?style=flat&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white)
+![Ultralytics YOLOv8](https://img.shields.io/badge/YOLOv8-Ultralytics-00599C?style=flat)
 
 >**Underwater object detection and tracking pipeline — YOLOv8-based mine/UUV/diver classifier with a two-stage BoT-SORT tracking layer and a safety-interlock design for human divers.**
 
@@ -90,13 +90,13 @@ Annotated tracking output on real underwater test footage.
 
 | Sea Mine Detection (camouflaged, low-contrast target) | Diver Safety-Lock Trigger |
 |---|---|
-| ![Sea mine detection](docs/gifs/test_video_1_R26_verified.gif) | ![Diver safety lock](docs/gifs/test_video_8_R26_verified.gif) |
+| <img src="docs/gifs/test_video_1_R26_verified.gif" width="450"> | <img src="docs/gifs/test_video_8_R26_verified.gif" width="450"> |
 
 | UUV Tracking Through Occlusion | False-Positive Suppression (empty water) |
 |---|---|
-| ![UUV tracking](docs/gifs/test_video_2_R26_verified.gif) | ![Clean background](docs/gifs/test_video_3_R26_verified.gif) |
+| <img src="docs/gifs/test_video_2_R26_verified.gif" width="450"> | <img src="docs/gifs/test_video_3_R26_verified.gif" width="450"> |
 
-*GIFs generated from held-out test video, not training data. See `docs/gifs/` — add clips here as `.gif` (GitHub renders GIFs inline; keep each under ~10MB for reasonable load times, `ffmpeg -i clip.mp4 -vf "fps=10,scale=480:-1" out.gif` works well for compression).*
+*GIFs generated from held-out test video, not training data. See `docs/gifs/` — add clips here as `.gif` (GitHub renders GIFs inline; keep each under ~10MB for reasonable load times. Use `ffmpeg -i clip.mp4 -vf "fps=10,scale=480:270:force_original_aspect_ratio=increase,crop=480:270" out.gif` to ensure all GIFs are cropped to the exact same 16:9 aspect ratio).*
 
 ---
 
