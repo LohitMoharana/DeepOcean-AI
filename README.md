@@ -82,13 +82,23 @@ This asymmetry is intentional: the system is tuned to over-flag potential divers
 
 Annotated tracking output on real underwater test footage.
 
-| Sea Mine Detection (camouflaged, low-contrast target) | Diver Safety-Lock Trigger |
-|---|---|
-| <img src="docs/gifs/test_video_1_R26_verified.mp4"> | <img src="docs/gifs/test_video_8_R26_verified.mp4"> |
+<p align="center">
+  <video src="docs/gifs/test_video_1_R26_verified.mp4" autoplay loop muted playsinline></video>
+  <video src="docs/gifs/test_video_8_R26_verified.mp4" autoplay loop muted playsinline></video>
+</p>
+<p align="center">
+  <b>Left:</b> Sea Mine Detection (camouflaged) &nbsp;&nbsp;|&nbsp;&nbsp; <b>Right:</b> Diver Safety-Lock Trigger
+</p>
 
-| UUV Tracking Through Occlusion | False-Positive Suppression (empty water) |
-|---|---|
-| <img src="docs/gifs/test_video_2_R26_verified.mp4"> | <img src="docs/gifs/test_video_3_R26_verified.mp4"> |
+<br>
+
+<p align="center">
+  <video src="docs/gifs/test_video_2_R26_verified.mp4" autoplay loop muted playsinline></video>
+  <video src="docs/gifs/test_video_3_R26_verified.mp4" autoplay loop muted playsinline></video>
+</p>
+<p align="center">
+  <b>Left:</b> UUV Tracking Through Occlusion &nbsp;&nbsp;|&nbsp;&nbsp; <b>Right:</b> False-Positive Suppression
+</p>
 
 
 ---
