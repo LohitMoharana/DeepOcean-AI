@@ -33,12 +33,6 @@ Built as an iterative, evidence-driven engineering project: every design decisio
 - **Active learning:** the model was iteratively hardened against real, observed failure modes — not just synthetic augmentation. Confirmed false-positive triggers (scuba tanks, dive flashlights, black ROVs misclassified as divers) were extracted directly from test footage, labeled, and injected back into training as targeted corrections.
 - **Backbone freezing:** fine-tuning runs use `freeze=10` to lock the pretrained backbone's low-level visual features (edges, textures, underwater color response) while letting the neck/head adapt to the 4-class taxonomy — this consistently outperformed retraining from a fresh backbone, which required far more data to relearn basic underwater optical physics.
 
-### Training curve (final 35-epoch fine-tune)
-
-Loss curves show clean, healthy convergence — precision, recall, mAP50, and mAP50-95 all climb steadily with no train/val divergence.
-
-*(insert `results.png` training curve plot here)*
-
 ---
 
 ## 📊 Performance — Held-Out Validation
