@@ -96,7 +96,6 @@ Annotated tracking output on real underwater test footage.
 |---|---|
 | <img src="docs/gifs/test_video_2_R26_verified.gif" width="100%"> | <img src="docs/gifs/test_video_3_R26_verified.gif" width="100%"> |
 
-*GIFs generated from held-out test video, not training data. See `docs/gifs/` — add clips here as `.gif` (GitHub renders GIFs inline; keep each under ~10MB for reasonable load times. Use `ffmpeg -i clip.mp4 -vf "fps=10,scale=480:270:force_original_aspect_ratio=increase,crop=480:270" out.gif` to ensure all GIFs are cropped to the exact same 16:9 aspect ratio).*
 
 ---
 
